@@ -22,7 +22,6 @@
         text-align: center;
     }
 
-
     main,
     footer {
         display: flex;
@@ -35,7 +34,8 @@
     nav {
         display: flex;
         justify-content: center;
-        gap: 35px;
+        gap: 40px;
+        margin: 0 auto;
     }
 
     nav a {
@@ -57,7 +57,6 @@
         width: 300px;
         padding: 10px;
         margin: 10px;
-        text-align: center;
         background-color: #EEEE;
     }
 
@@ -74,6 +73,7 @@
         font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
         margin: 10px;
+        text-align: center;
         text-decoration: underline;
     }
 
@@ -88,6 +88,7 @@
         padding: 10px 15px;
         background-color: darkblue;
         text-decoration: none;
+        text-align: center;
         color: #FFFF;
         border-radius: 4px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
