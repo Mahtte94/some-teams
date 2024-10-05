@@ -11,7 +11,19 @@
         box-sizing: border-box;
     }
 
-    main {
+    body {
+        background-color: #fffcf2;
+    }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+    main,
+    footer {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
@@ -35,7 +47,6 @@
         background-color: darkblue;
     }
 
-
     .cards {
         display: flex;
         flex-direction: column;
@@ -43,7 +54,7 @@
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         width: 300px;
-        padding: 20px;
+        padding: 10px;
         margin: 10px;
         text-align: center;
         background-color: #EEEE;
@@ -61,7 +72,7 @@
     .cards h2 {
         font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 20px;
+        margin: 10px;
         text-decoration: underline;
     }
 
@@ -79,6 +90,34 @@
         color: #FFFF;
         border-radius: 4px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    /* About page */
+
+    .cards2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        width: 500px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        background-color: #EEEE;
+    }
+
+    .cards2 h2 {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+        text-decoration: underline;
+    }
+
+    .cards2 p {
+        font-size: 17px;
+        margin: 5px 0;
+        text-align: left;
     }
 
     /* Hover */
