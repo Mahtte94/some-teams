@@ -21,7 +21,7 @@ array_multisort($sortValues, SORT_ASC, $teams);
     <?php
 
     foreach ($teams as $teamName => $teamInfo) { ?>
-
+        <div class="cards">
             <h2><?= $teamName ?></h2>
             <p>
                 <?= ucwords('league') . ": " . $teamInfo['league']; ?>
@@ -37,6 +37,7 @@ array_multisort($sortValues, SORT_ASC, $teams);
             </a>
             <img src="<?= $teamInfo['logo'] ?>" />
             <p><?= ucwords('group') . ": " . $teamInfo['group']; ?></p>
+        </div>
     <?php
     }
 

@@ -17,6 +17,24 @@
 
     }
 
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .cards {
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        width: 300px;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    
 
 
 </style>
