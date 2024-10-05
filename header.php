@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Some teams</title>
 </head>
+<style>
+
+    *{
+        box-sizing: border-box;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+
+    }
+
+
+
+</style>
 <body>
     <header>
         <h1>Welcome to UEFA Rankings</h1>
