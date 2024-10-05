@@ -20,6 +20,9 @@
     }
 
     .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         width: 300px;
@@ -29,12 +32,35 @@
     }
 
     .cards img {
-        max-width: 100px;
+        width: 100px;
         height: 100px;
         object-fit: contain;
-        margin-bottom: 10px;
+        align-self: center;
+        margin-top: 20px;
 
     }
+
+    .cards h2 {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+
+    .cards p {
+        font-size: 17px;
+        margin: 5px 0;
+    }
+
+    .cards a {
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: darkblue;
+        text-decoration: none;
+        color: #FFFF;
+        border-radius: 4px;
+    }
+
+    
 </style>
 
 <body>

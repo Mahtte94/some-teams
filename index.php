@@ -22,19 +22,21 @@ array_multisort($sortValues, SORT_ASC, $teams);
         <div class="cards">
             <h2><?= $teamName ?></h2>
             <p>
-                <?= ucwords('league') . ": " . $teamInfo['league']; ?>
+                <strong><?= ucwords('league') . ": "?></strong> <?= $teamInfo['league']; ?>
             </p>
             <p>
-                <?= ucwords('uefa-coefficient-ranking') . ": " . $teamInfo['uefa-coefficient-ranking'];  ?>
+                <strong><?= ucwords('uefa-coefficient-ranking') . ": "?></strong> <?= $teamInfo['uefa-coefficient-ranking'];  ?>
             </p>
             <p>
-                <?= ucwords('city') . ": " . $teamInfo['city'];  ?>
+                <strong><?= ucwords('city') . ": "?></strong> <?= $teamInfo['city'];  ?>
             </p>
+            <p>
+               <strong><?= ucwords('group') . ": "?></strong> <?= $teamInfo['group']; ?>
+            </p>
+            <img src="<?= $teamInfo['logo'] ?>" alt="<?= $teamName ?>" />
             <a href="<?= $teamInfo['url']; ?>">
                 <?= $teamName; ?>
             </a>
-            <img src="<?= $teamInfo['logo'] ?>" />
-            <p><?= ucwords('group') . ": " . $teamInfo['group']; ?></p>
         </div>
     <?php
     }
