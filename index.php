@@ -4,8 +4,8 @@ require_once __DIR__ . "/header.php";
 require_once __DIR__ . "/data.php";
 
 $sortBy = 'uefa-coefficient-ranking';
-
 $sortValues = [];
+
 foreach ($teams as $teamName => $teamInfo) {
     $sortValues[] = $teamInfo[$sortBy];
 }
@@ -13,8 +13,6 @@ foreach ($teams as $teamName => $teamInfo) {
 array_multisort($sortValues, SORT_ASC, $teams);
 
 ?>
-
-
 
 <main>
 
@@ -42,7 +40,6 @@ array_multisort($sortValues, SORT_ASC, $teams);
     }
 
     ?>
-
 
 </main>
 

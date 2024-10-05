@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Some teams</title>
 </head>
 <style>
-
-    *{
+    * {
         box-sizing: border-box;
-    }
-
-    img {
-        width: 100px;
-        height: 100px;
-
     }
 
     main {
@@ -34,10 +28,15 @@
         text-align: center;
     }
 
-    
+    .cards img {
+        max-width: 100px;
+        height: 100px;
+        object-fit: contain;
+        margin-bottom: 10px;
 
-
+    }
 </style>
+
 <body>
     <header>
         <h1>Welcome to UEFA Rankings</h1>
