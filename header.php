@@ -19,6 +19,23 @@
         padding: 20px;
     }
 
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+    }
+
+    nav a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #FFFF;
+        padding: 10px;
+        border-radius: 8px;
+        text-decoration: none;
+        background-color: darkblue;
+    }
+
+
     .cards {
         display: flex;
         flex-direction: column;
@@ -29,6 +46,7 @@
         padding: 20px;
         margin: 10px;
         text-align: center;
+        background-color: #EEEE;
     }
 
     .cards img {
@@ -43,12 +61,14 @@
     .cards h2 {
         font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        text-decoration: underline;
     }
 
     .cards p {
         font-size: 17px;
         margin: 5px 0;
+        text-align: left;
     }
 
     .cards a {
@@ -58,9 +78,19 @@
         text-decoration: none;
         color: #FFFF;
         border-radius: 4px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     }
 
-    
+    /* Hover */
+
+    nav a:hover {
+        background-color: blue;
+
+    }
+
+    .cards a:hover {
+        background-color: blue;
+    }
 </style>
 
 <body>
