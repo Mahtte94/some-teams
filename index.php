@@ -20,23 +20,31 @@ array_multisort($sortValues, SORT_ASC, $teams);
 
     foreach ($teams as $teamName => $teamInfo) { ?>
         <div class="cards">
+
             <h2><?= $teamName ?></h2>
+
             <p>
-                <strong><?= ucwords('league') . ": "?></strong> <?= $teamInfo['league']; ?>
+                <b><?= ucwords('league') . ": " ?></b> <?= $teamInfo['league']; ?>
             </p>
+
             <p>
-                <strong><?= ucwords('uefa-coefficient-ranking') . ": "?></strong> <?= $teamInfo['uefa-coefficient-ranking'];  ?>
+                <b><?= ucwords('uefa-coefficient-ranking') . ": " ?></b> <?= $teamInfo['uefa-coefficient-ranking'];  ?>
             </p>
+
             <p>
-                <strong><?= ucwords('city') . ": "?></strong> <?= $teamInfo['city'];  ?>
+                <b><?= ucwords('city') . ": " ?></b> <?= $teamInfo['city'];  ?>
             </p>
+
             <p>
-               <strong><?= ucwords('group') . ": "?></strong> <?= $teamInfo['group']; ?>
+                <b><?= ucwords('group') . ": " ?></b> <?= $teamInfo['group']; ?>
             </p>
+
             <img src="<?= $teamInfo['logo'] ?>" alt="<?= $teamName ?>" />
+
             <a href="<?= $teamInfo['url']; ?>">
                 <?= $teamName; ?>
             </a>
+
         </div>
     <?php
     }
